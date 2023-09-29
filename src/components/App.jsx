@@ -1,10 +1,7 @@
 import React from "react";
-import { UserList } from "./UserList";
+import { Chat } from "./Chat/Chat";
 
 export const App = ({ data }) => {
-  return (
-    <div>
-      <UserList users={data} />
-    </div>
-  );
+  return <Chat users={data} />;
 };
+

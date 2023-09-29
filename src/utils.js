@@ -1,10 +1,40 @@
 export let heroes = [
-  { id: "1", name: "Captain America", status: "online" },
-  { id: "2", name: "Iron Man", status: "online" },
-  { id: "3", name: "Thor", status: "busy" },
-  { id: "4", name: "Black Widow", status: "busy" },
-  { id: "5", name: "Spider Man", status: "away" },
-  { id: "6", name: "Hulk", status: "away" },
+  {
+    id: "1",
+    name: "Adan Zuniga",
+    status: "online",
+    avatarUrl: "/assets/avatar_1.png",
+  },
+  {
+    id: "2",
+    name: "Justice Doyle",
+    status: "online",
+    avatarUrl: "/assets/avatar_2.png",
+  },
+  {
+    id: "3",
+    name: "Patricia Beasley",
+    status: "busy",
+    avatarUrl: "/assets/avatar_3.png",
+  },
+  {
+    id: "4",
+    name: "Phillip Chan",
+    status: "busy",
+    avatarUrl: "/assets/avatar_4.png",
+  },
+  {
+    id: "5",
+    name: "Rory Berry",
+    status: "away",
+    avatarUrl: "/assets/avatar_5.png",
+  },
+  {
+    id: "6",
+    name: "Leanna Vaughan",
+    status: "away",
+    avatarUrl: "/assets/avatar_6.png",
+  },
 ];
 
 export function randomizeStatuses() {

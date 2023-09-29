@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { App } from "./components/App";
 import { heroes, randomizeStatuses, sortHeroes } from "./utils";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -13,4 +14,4 @@ renderApp();
 setInterval(() => {
   randomizeStatuses();
   renderApp();
-}, 15000);
+}, 5000);
